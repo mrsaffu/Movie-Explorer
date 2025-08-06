@@ -24,28 +24,14 @@
 
 ---
 
-## Setup Instructions
 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/movie-explorer.git
+git clone https://github.com/mrsaffu/Movie-Explorer.git
 cd movie-explorer
 
 npm install
 npm start
 
 
-project-root/
-│
-├── public/
-│   └── images/
-│       └── genre thumbnails
-│
-├── src/
-│   ├── App.jsx
-│   ├── App.css
-│   └── index.js
-│
-├── package.json
-└── README.md
