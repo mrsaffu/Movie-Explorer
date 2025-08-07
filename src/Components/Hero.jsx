@@ -134,11 +134,12 @@ const Hero = () => {
           {currentMovies.map((movie, idx) => (
             <tr key={idx}>
               <td>
-                <img
+                {/* <img
                   src={getThumbnail(movie.genres)}
                   alt="thumb"
                   className="thumbnail"
-                />
+                /> */}
+                <img  className="thumbnailimg" src={movie.thumbnail} alt="thumbnail" />
               </td>
               <td>{movie.title}</td>
               <td>{movie.year}</td>
